@@ -23,3 +23,35 @@ Running Scripts:
 - Update the complete path of the app to be installed under config/config.json in capabilities 
  ![image](https://user-images.githubusercontent.com/26030123/174588960-c1856d17-9499-48d3-a055-df16541d58ab.png)
 
+Prerequisite
+ - Python - version: 3.9.7
+ - pip - version: 21.1.2
+
+Step1 : Clone the repo from gitHub
+Step2 : in the project directory create a python3 virtual env 
+	Command: python -m venv <path_to_virtualEvn>
+	Eg: python -m venv leadConnectRoaibenv
+ 
+ Python virual env folder named leadConnectRoaibenv should be created in the project directory 
+
+Step3: Activate virtual env
+	Command: 
+		- on windows: we need to just need the activate.bat file via terminal
+		<virtual_env>\Scripts\activate.bat
+		Eg: leadConnectRoaibenv\Scripts\activate.bat (from project directory)
+
+		- On Mac: 
+		Command: <virtual_env>/bin/activate
+  
+Step4: Install requirements inside the virtual env 
+	Command: from the Project directory (leadConnectRoaib)
+		pip install -r requirements.txt
+  
+  ![pipinstall](https://user-images.githubusercontent.com/26030123/174589331-b595e2f3-1fa9-434c-b115-c737fd06f0ae.jpg)
+
+Step5: After intallting requirements, navigate to test case folder to stat execution
+	Commands: 
+			- cd testCases
+			- pytest --html=report.html  (report.html is the name of the html to be generated after execution)
+   
+   ![satrting execution](https://user-images.githubusercontent.com/26030123/174589403-a6634308-a1da-4077-9a2b-e4f74d1f0b49.jpg)
