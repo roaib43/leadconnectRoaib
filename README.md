@@ -26,7 +26,7 @@ Prerequisite
  - Python - version: 3.9.7
  - pip - version: 21.1.2
 
-Step1 : Clone the repo from gitHub
+Step1 : Clone the repo from gitHub (git clone https://github.com/roaib43/leadconnectRoaib.git)
 Step2 : in the project directory create a python3 virtual env 
 	Command: python -m venv <path_to_virtualEvn>
 	Eg: python -m venv leadConnectRoaibenv
