@@ -25,6 +25,8 @@ Running Scripts:
 Prerequisite
  - Python - version: 3.9.7
  - pip - version: 21.1.2
+ - Make sure appium set is complete and it is working as expected 
+ 	Note: If the path for appium execution is different then please update the path in config.json file
 
 **Step1 **: Clone the repo from gitHub (git clone https://github.com/roaib43/leadconnectRoaib.git)
 
