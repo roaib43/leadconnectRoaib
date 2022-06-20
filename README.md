@@ -3,8 +3,6 @@
 This is the complete source code for running the testscripts via Appium
 
 Project Structure:
- - app (directory):
-    - Contains the app to be tested
  - config (directory):
     - config.json - this file contains most the configs for the project such as desiredCapabilities for Appiun, Appium server Path, App Credentials.
     - locators.json - this file contains most of the UI Locators for navigation, so that is easy to maintain
@@ -27,6 +25,7 @@ Prerequisite
  - pip - version: 21.1.2
  - Make sure appium set is complete and it is working as expected 
  	Note: If the path for appium execution is different then please update the path in config.json file
+ - IMPORTANT: Please provide the path for andorid app in config.json under capabilities section 
 
 **Step1 **: Clone the repo from gitHub (git clone https://github.com/roaib43/leadconnectRoaib.git)
 
