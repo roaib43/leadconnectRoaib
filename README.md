@@ -37,6 +37,7 @@ Prerequisite
 **Step3**: Activate virtual env
 	Command: 
 		- on windows: we need to just need the activate.bat file via terminal
+		
 		<virtual_env>\Scripts\activate.bat
 		Eg: leadConnectRoaibenv\Scripts\activate.bat (from project directory)
 
