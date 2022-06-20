@@ -1,0 +1,12 @@
+{
+  "capabilities" : {
+    "platformName": "Android",
+    "app": "C:\\Users\\roaib\\PycharmProjects\\leadconnectRoaib\\app\\app-prod-release-universal (36).apk",
+    "autoGrantPermissions": "true"
+  },
+  "appium_path": "http://localhost:4723/wd/hub",
+  "credentials": {
+    "username": "qatest@test.com",
+    "password": "QAtest123!"
+  }
+}
