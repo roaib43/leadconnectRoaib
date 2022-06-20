@@ -54,7 +54,10 @@ Prerequisite
 
 **Step5**: After intallting requirements, navigate to test case folder to stat execution
 	Commands: 
+	
 			- cd testCases
+			
+			
 			- pytest --html=report.html  (report.html is the name of the html to be generated after execution)
    
    ![satrting execution](https://user-images.githubusercontent.com/26030123/174589403-a6634308-a1da-4077-9a2b-e4f74d1f0b49.jpg)
