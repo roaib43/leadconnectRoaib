@@ -7,6 +7,6 @@
   "appium_path": "http://localhost:4723/wd/hub",
   "credentials": {
     "username": "qatest@test.com",
-    "password": "QAtest12345!"
+    "password": "test!"
   }
 }
